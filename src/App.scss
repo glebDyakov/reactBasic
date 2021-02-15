@@ -1,0 +1,16 @@
+.AppButton{
+    padding:8px 10px;
+    border:1px solid #ccc;
+    font-weight: bold;
+    text-transform: uppercase;
+    &:focus, &:active{
+        outline:none;
+    }
+    &:hover{
+        background:#f0ff1e;
+    }
+}
+.wfm-active{
+    color:red;
+    font-weight:bold;
+}

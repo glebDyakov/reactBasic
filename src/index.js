@@ -1,12 +1,20 @@
-import classses from './App.module.scss'
+//import classes from './App.module.scss'
 import React from 'react';
+import {BrowserRouter} from 'react-router-dom'
+
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const application=(
+  <BrowserRouter>
+    <App/>
+  </BrowserRouter>
+)
+
 ReactDOM.render(
-  <App/>,
+  application,
   document.getElementById('root')
 );
 
